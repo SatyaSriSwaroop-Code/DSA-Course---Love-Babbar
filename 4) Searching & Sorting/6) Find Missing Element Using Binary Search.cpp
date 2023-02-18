@@ -1,3 +1,4 @@
+//Note: this program only finds the input for missing number only if the sequence starts with 1 at zero position.
 #include <iostream>
 using namespace std;
 
