@@ -17,7 +17,7 @@ int FirstOccuranceUsingBinarySearch(int arr[], int size, int target)
       //save answer
       ans = mid;
 
-      //left search
+      //left search - because we want first occurance
       end = mid - 1;
     }
     else if (arr[mid] < target)
@@ -25,7 +25,7 @@ int FirstOccuranceUsingBinarySearch(int arr[], int size, int target)
       //right search
       start = mid + 1;
     }
-     else if (arr[mid] > target)
+    else
     {
      //left search
       end = mid - 1;
