@@ -1,3 +1,6 @@
+//Search In a Sorted and Rotated Array
+#include <iostream>
+using namespace std;
 //BinarySearch
 int BinarySearch(vector<int> nums, int size, int startIndex, int endIndex, int target)
 {
