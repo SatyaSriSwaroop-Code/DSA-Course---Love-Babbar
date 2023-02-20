@@ -1,4 +1,7 @@
 //SquareRoot of A Given Number Using Binary Search 
+#include <iostream>
+using namespace std;
+
 double Sqrt(int Quotient, int Precision)
 {
   double ans = -1;
