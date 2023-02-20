@@ -103,3 +103,5 @@ int main ()
      cout << result;
      return 0;
   }
+
+// otuput: 0 
