@@ -4,7 +4,7 @@ using namespace std;
 //factorial using recursion
 int factorial(int n){
   static int ans;
-    if(n >= 1)
+    if(n > 1)
      return n * factorial(n-1);
      else
       return 1;
